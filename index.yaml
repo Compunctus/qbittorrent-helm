@@ -1,0 +1,33 @@
+apiVersion: v1
+entries:
+  qbittorrent:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: v4.4.2
+    created: "2022-12-02T14:30:27.899533188Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: qBittorrent is a cross-platform free and open-source BitTorrent client
+    digest: b2f8e1bd9adc5aafd65e470d3ce4d868bca13f23e3fe97c249fda0dd0a19b129
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/qbittorrent
+    icon: https://cloud.githubusercontent.com/assets/14862437/23586868/89ef2922-01c4-11e7-869c-52aafcece17f.png
+    keywords:
+    - qbittorrent
+    - torrrent
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: qbittorrent
+    sources:
+    - https://github.com/qbittorrent/qBittorrent
+    - https://github.com/k8s-at-home/container-images
+    urls:
+    - https://github.com/Compunctus/qbittorrent-helm/releases/download/qbittorrent-13.5.2/qbittorrent-13.5.2.tgz
+    version: 13.5.2
+generated: "2022-12-02T14:30:27.899538988Z"
