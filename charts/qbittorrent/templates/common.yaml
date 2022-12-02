@@ -17,6 +17,10 @@ persistence:
 
 {{ if .Values.metrics.enabled }}
 additionalContainers:
+  sshd:
+    name: sshd
+    image: "{{ .Values.sshd.image.repository }}:{{ .Values.sshd.image.tag }}"
+    imagePullPolicy: {{ .Values.sshd.image.pullPolicy }}
   exporter:
     name: exporter
     image: "{{ .Values.metrics.exporter.image.repository }}:{{ .Values.metrics.exporter.image.tag }}"

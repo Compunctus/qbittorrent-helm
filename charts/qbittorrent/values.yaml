@@ -105,3 +105,9 @@ metrics:
       port: 9022
       # -- log level [DEBUG|INFO|WARNING|ERROR|CRITICAL]
       logLevel: INFO
+
+sshd:
+  image:
+    repository: registry.dronskii.ru/shared/support-images/archlinux-sftp
+    tag: latest
+    pullPolicy: IfNotPresent
