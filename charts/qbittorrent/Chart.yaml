@@ -3,7 +3,7 @@ apiVersion: v2
 appVersion: v4.5.0
 description: qBittorrent is a cross-platform free and open-source BitTorrent client
 name: qbittorrent
-version: 13.5.2
+version: 14.0.0
 kubeVersion: ">=1.16.0-0"
 keywords:
   - qbittorrent
