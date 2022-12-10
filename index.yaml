@@ -7,6 +7,35 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v4.5.0
+    created: "2022-12-10T21:51:40.25432793Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: qBittorrent is a cross-platform free and open-source BitTorrent client
+    digest: 313778eed7f68d9d1dc8199a21f526de0d90dd3c7110610858819573dc8bc126
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/qbittorrent
+    icon: https://cloud.githubusercontent.com/assets/14862437/23586868/89ef2922-01c4-11e7-869c-52aafcece17f.png
+    keywords:
+    - qbittorrent
+    - torrrent
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: qbittorrent
+    sources:
+    - https://github.com/qbittorrent/qBittorrent
+    - https://github.com/k8s-at-home/container-images
+    urls:
+    - https://github.com/Compunctus/qbittorrent-helm/releases/download/qbittorrent-14.0.1/qbittorrent-14.0.1.tgz
+    version: 14.0.1
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: v4.5.0
     created: "2022-12-02T16:38:25.781710089Z"
     dependencies:
     - name: common
@@ -59,4 +88,4 @@ entries:
     urls:
     - https://github.com/Compunctus/qbittorrent-helm/releases/download/qbittorrent-13.5.2/qbittorrent-13.5.2.tgz
     version: 13.5.2
-generated: "2022-12-02T16:38:25.78172369Z"
+generated: "2022-12-10T21:51:40.25434073Z"
