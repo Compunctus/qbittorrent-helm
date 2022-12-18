@@ -75,11 +75,12 @@ mariadb:
 # https://github.com/bitnami/charts/tree/master/bitnami/postgresql/#installing-the-chart
 postgresql:
   enabled: false
-  # postgresqlUsername: ""
-  # postgresqlPassword: ""
-  # postgresqlDatabase: ""
-  # persistence:
-  #   enabled: true
-  #   storageClass:
-  #   accessModes:
-  #     - ReadWriteOnce
+  auth:
+    username: vaultwarden
+    password:
+    database: vaultwarden
+  primary:
+    persistence:
+      enabled: true
+      storageClass: ""
+
