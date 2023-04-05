@@ -3,13 +3,13 @@ apiVersion: v2
 appVersion: 1.28.1
 description: Vaultwarden is a Bitwarden compatable server in Rust
 name: vaultwarden
-version: 5.3.7
+version: 5.3.8
 kubeVersion: ">=1.16.0-0"
 keywords:
   - Vaultwarden
   - bitwardenrs
 home: "https://github.com/k8s-at-home/charts/tree/master/charts/stable/vaultwarden"
-icon: "https://sesoodan.sirv.com/bitwarden_rs.png"
+icon: "https://upload.wikimedia.org/wikipedia/commons/5/55/Bitwarden_Logo_2018.png"
 sources:
   - https://github.com/dani-garcia/vaultwarden
 maintainers:
