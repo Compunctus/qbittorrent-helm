@@ -6,6 +6,35 @@ entries:
         - kind: changed
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
+    appVersion: v4.5.4
+    created: "2023-06-23T10:56:37.697298921Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: qBittorrent is a cross-platform free and open-source BitTorrent client
+    digest: 4646258b54c98d2db6652e01832925ac906dfeeefcfc649d5a2f5d20e4a2c73f
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/qbittorrent
+    icon: https://cloud.githubusercontent.com/assets/14862437/23586868/89ef2922-01c4-11e7-869c-52aafcece17f.png
+    keywords:
+    - qbittorrent
+    - torrrent
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: qbittorrent
+    sources:
+    - https://github.com/qbittorrent/qBittorrent
+    - https://github.com/k8s-at-home/container-images
+    urls:
+    - https://github.com/Compunctus/qbittorrent-helm/releases/download/qbittorrent-14.0.3/qbittorrent-14.0.3.tgz
+    version: 14.0.3
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
     appVersion: v4.5.2
     created: "2023-04-06T06:04:56.895449911Z"
     dependencies:
@@ -298,4 +327,4 @@ entries:
     urls:
     - https://github.com/Compunctus/qbittorrent-helm/releases/download/vaultwarden-5.3.3/vaultwarden-5.3.3.tgz
     version: 5.3.3
-generated: "2023-04-06T06:04:56.895494512Z"
+generated: "2023-06-23T10:56:37.697462821Z"
