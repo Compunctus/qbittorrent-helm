@@ -152,6 +152,42 @@ entries:
         - kind: changed
           description: switch back to common chart from k8s-home
     apiVersion: v2
+    appVersion: 1.29.0
+    created: "2023-07-10T11:41:40.994102336Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.4.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.6
+    description: Vaultwarden is a Bitwarden compatable server in Rust
+    digest: 212409ef8dc22107fcf233beab31e09f14634a6e1040915b00a27e0d5b462aea
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/vaultwarden
+    icon: https://upload.wikimedia.org/wikipedia/commons/5/55/Bitwarden_Logo_2018.png
+    keywords:
+    - Vaultwarden
+    - bitwardenrs
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: iaroslav@dronskii.ru
+      name: Compunctus
+    name: vaultwarden
+    sources:
+    - https://github.com/dani-garcia/vaultwarden
+    urls:
+    - https://github.com/Compunctus/qbittorrent-helm/releases/download/vaultwarden-5.3.9/vaultwarden-5.3.9.tgz
+    version: 5.3.9
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: switch back to common chart from k8s-home
+    apiVersion: v2
     appVersion: 1.28.1
     created: "2023-04-05T16:03:38.182285822Z"
     dependencies:
@@ -327,4 +363,4 @@ entries:
     urls:
     - https://github.com/Compunctus/qbittorrent-helm/releases/download/vaultwarden-5.3.3/vaultwarden-5.3.3.tgz
     version: 5.3.3
-generated: "2023-06-23T10:56:37.697462821Z"
+generated: "2023-07-10T11:41:40.994134036Z"
